@@ -54,6 +54,8 @@ var settings = module.exports = {
     httpStatic: path.join(__dirname,"public"),
 
     functionGlobalContext: { },
+    
+    httpNodeCors: {origin: true},
 
     // Configure the logging output
     logging: {
