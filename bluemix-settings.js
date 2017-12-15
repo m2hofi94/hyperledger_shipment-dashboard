@@ -59,7 +59,7 @@ var settings = module.exports = {
     httpNodeCors: {origin: true},
     
     // allows HTTP requests to be 5mb large
-    apiMaxLength: '5mb',
+    apiMaxLength: '60mb',
 
     // Configure the logging output
     logging: {
