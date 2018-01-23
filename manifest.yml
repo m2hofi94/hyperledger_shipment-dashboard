@@ -3,8 +3,8 @@ applications:
   memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: container-tracker-dashboard
-  host: container-tracker-dashboard
+  name: kit-blockchain-dashboard
+  host: kit-blockchain-dashboard
   disk_quota: 1024M
   services:
   - container-tracker-dashboard-cloudantNoSQLDB
